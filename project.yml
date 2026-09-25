@@ -1,0 +1,17 @@
+name: MijniPhoneApp
+
+options:
+  bundleIdPrefix: com.jesse
+
+targets:
+  MijniPhoneApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+
+    sources:
+      - MijniPhoneApp
+
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jesse.MijniPhoneApp
